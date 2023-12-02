@@ -22,7 +22,7 @@ function App() {
     setVal(0);
   };
   return (
-    <div className="w-full h-screen  pt-32 bg-gradient-to-r from-slate-500 to-slate-800">
+    <div className="w-full h-screen pt-24 md:pt-32 bg-gradient-to-r from-slate-500 to-slate-800">
       <div className="bg-black/30 md:w-[20%] rounded-xl m-auto shadow-2xl shadow-black hover:shadow-md">
         <h1 className="font-mono text-7xl text-[#ACC8E5] text-center ">
           unit Converter
@@ -38,7 +38,7 @@ function App() {
         >
           <div className="bg-white/30 lg:bg-[url('assets/bg.jpg')] bg-cover bg-center h-64 sm:w-1/2 md:w-1/3 lg:w-[50%] xl:w-[50%] m-auto rounded-md flex flex-col items-center mt-16 ">
             {/* <TypeInput /> */}
-            <div className="flex gap-10 items-center justify-center  flex-col md:flex-row  pt-20 ">
+            <div className="flex gap-10 items-center justify-center  flex-col md:flex-row pt-4 md:pt-20 mb-7 md:mb-0">
               <InputBox
                 msg="from"
                 len={len}
